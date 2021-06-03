@@ -12,10 +12,9 @@ public class CustomerServiceImpl implements CustomerService {
     public Customer getCustomerById(int id) {
         try
         {
-            System.out.println("Going to sleep for 5 Secs.. to simulate backend call.");
-            Thread.sleep(1000*5);
+            System.out.println("Getting Customer...");
         }
-        catch (InterruptedException e)
+        catch (Exception e)
         {
             e.printStackTrace();
         }
